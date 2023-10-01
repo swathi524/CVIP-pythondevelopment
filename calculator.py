@@ -1,23 +1,24 @@
 import tkinter  
 from tkinter import *
 root=Tk()
-
-main_bg="#000000"
-sec_bg="#FF0000"
 arith_color="#FFFF00"
 fg_f="#ffffff"
 disp2_color="#F9F6EE"
 disp1_color="#FFFFF0"
+main_bg="#000000"
+sec_bg="#FF0000"
 
+
+
+disp2_font=("Consolas",45)
 arith_font=("Consolas",30)
 console_font=("Consolas",30)
 disp1_font=("Consolas",25)
-disp2_font=("Consolas",45)
-
-root.title("Calculator")
-
 root.geometry("400x550")
 root.resizable(1,1)
+root.title("Calculator")
+
+
 root.configure(bg=main_bg)
 
 calc=""
